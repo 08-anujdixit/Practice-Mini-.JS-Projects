@@ -47,11 +47,11 @@ form.addEventListener("submit", function (event) {
 
   //   expenses.push(expense);
   if (editIndex !== null) {
-    expenses[editIndex] = expense; 
-    editIndex = null; 
+    expenses[editIndex] = expense;
+    editIndex = null;
     addBtn.innerText = "Add Expense";
   } else {
-    expenses.push(expense); 
+    expenses.push(expense);
   }
 
   saveExpenses();
@@ -97,6 +97,7 @@ function displayExpenseRow() {
     actions.appendChild(delBtn);
 
     editBtn.addEventListener("click", function () {
+      alert("Edit the details in form");
       expenseName.value = e.expenseName;
       amount.value = e.amount;
       selectCategory.value = e.selectCategory;
