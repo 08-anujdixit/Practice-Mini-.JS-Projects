@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PROduck</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <p id="logo">PROduck</p>
+      <form>
+        <input type="search" id="searchInput" placeholder="Search Product" />
+        <button type="submit" id="submitBtn">
+          <img src="assets/search.png" alt="Search" />
+        </button>
+      </form>
+      <div id="cart">
+        <button id="cartButton">
+          <img
+            src="assets/shopping-cart.png"
+            alt="Cart"
+            style="cursor: pointer"
+          />
+        </button>
+      </div>
+    </nav>
+
+    <main>
+      <div id="productGrid">
+        <div class="productCard">
+          <img src="assets/image.png" alt="Product Image" />
+          <div class="cardContent">
+            <p>Title</p>
+            <p>Category</p>
+            <p>Rating :</p>
+            <p>Price :</p>
+            <button>Add To Cart</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+   <div id="cartOverlay">
+    <div id="cartPopup">
+        <!-- HEADER -->
+        <div class="cartHeader">
+            <h2>Cart</h2>
+            <button id="closeCart">✕</button>
+        </div>
+        <!-- BODY (items list) -->
+        <div id="cartItems">
+
+            <div class="cartItem">
+                <img src="assets/image.png" alt="Product">
+
+                <div class="cartInfo">
+                    <h4>Laptop</h4>
+                    <p class="price">₹50,000</p>
+
+                    <div class="quantity">
+                        <button>-</button>
+                        <span>1</span>
+                        <button>+</button>
+                    </div>
+
+                    <button class="removeBtn">Remove</button>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- FOOTER (optional later) -->
+        <div class="cartFooter">
+            <h3>Total: ₹50,000</h3>
+            <button class="checkoutBtn">Checkout</button>
+        </div>
+
+    </div>
+
+    </div>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
