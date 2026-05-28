@@ -29,5 +29,6 @@ This app fetches real-time weather data using an external Weather API and displa
 
 ##  Screenshots
 
-![alt text](IMAGES/image.png)
+![alt text](IMAGES/image.png) 
+\
 ![alt text](IMAGES/image-1.png)
