@@ -131,7 +131,7 @@ function displayTotal() {
   expenses.forEach(function (e) {
     sum += Number(e.amount);
   });
-  totalAmount.innerText = `₹ ${sum}`;
+  totalAmount.innerText = `₹ ${sum}`; 
 }
 
 function updateEmptyState() {
