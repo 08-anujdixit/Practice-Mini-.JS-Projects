@@ -28,6 +28,6 @@ This app allows users to search for movies and view details using an external AP
 ## Screenshots
 ![alt text](IMAGES/image.png)
 
-## Mobile Responsive UI  \
+## Mobile Responsive UI  
 
 ![alt text](IMAGES/image1.png)
